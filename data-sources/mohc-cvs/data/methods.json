@@ -133,7 +133,7 @@
           "Time slicing"
         ],
         "Definition": "The time slice method identifies the point in time when a specific global mean surface temperature increment (e.g., 1.5°C, 2°C) above pre-industrial (usually 1850–1900) is reached in each GCM simulation. A multi-year period - 10 years on either side of this central estimate - is selected (to account for uncertainty in the timing of reaching a given warming level) and extracted from each respective RCM as a 21-year time slice.\nCombined James et al. (2017) https://doi.org/10.1002/wcc.457 and Hanlon et al. (2021) https://doi.org/10.1007/s10584-021-03100-5",
-        "Usage": "Most common: almost all applications, with or without particular emissions scenario",
+        "Usage": "Most common: almost all applications",
         "ApplicableToOperations": [
           "Global warming level extraction"
         ],
@@ -186,7 +186,7 @@
         "Name": "Standard deviation"
       },
       {
-        "Definition": "[Note to CNR: can also reference wikidata Q578714] \nA quantile defines a particular part of a data set, i.e., a quantile determines how many values in a distribution are above or below a certain limit. Special quantiles are the quartile (quarter), the decile (tenth), and percentiles (hundredth).\nhttps://www.statista.com/statistics-glossary/definition/356/quantile/",
+        "Definition": "A quantile defines a particular part of a data set, i.e., a quantile determines how many values in a distribution are above or below a certain limit. Special quantiles are the quartile (quarter), the decile (tenth), and percentiles (hundredth).\nhttps://www.statista.com/statistics-glossary/definition/356/quantile/",
         "Category": "Statistical analyses",
         "ApplicableToOperations": [
           "Climate change quantification application",
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "Definition": "A sub-category of descriptive statistics dedicated to ensemble analysis. [Notes to CNR - must be linked in some way to the respective method in Statistical analysis - Descriptive statistics]",
+    "Definition": "A sub-category of descriptive statistics dedicated to ensemble analysis.",
     "Category": "Statistical analyses",
     "ApplicableToOperations": [
       "Climate change quantification application"
@@ -375,7 +375,7 @@
   {
     "Alias": [
       "Regridding",
-      "Gap-filling [note for CNR: different applications!]"
+      "Gap-filling"
     ],
     "Definition": "Used for regridding and gap-filling. \nRegridding is the process of interpolating from one grid resolution to a different grid resolution. This could involve temporal, vertical or spatial ('horizontal') interpolations. However, most commonly, regridding refers to spatial interpolation. There are numerous grid interpolation methods and users should choose the method appropriate for the intended task. Using an inappropriate interpolation scheme may lead to misleading results. Further, most climate grids are georeferenced on a sphere where pole singularities and the convergence of the longitude meridians can be issues that need to be addressed.\nhttps://climatedataguide.ucar.edu/climate-tools/regridding-overview",
     "Category": "Statistical analyses",
@@ -435,7 +435,8 @@
     "Methods": [
       {
         "Alias": [
-          "POT"
+          "POT",
+          "Peaks over threshold"
         ],
         "Definition": "Peaks-over-threshold analysis is used to obtain a sample defined by all peak\nvalues that lie above a certain truncation level (usually called the threshold or base level). Together with block (typically annual) maxima, it is one of the methods to identify extreme values.\nFrom Bezek at al. (2014) https://doi.org/10.1080/02626667.2013.831174",
         "Usage": "To identify extreme values for use in extreme value analysis",
@@ -468,7 +469,7 @@
       "Model simulation evaluation",
       "Climate change quantification application"
     ],
-    "Name": "attern matching"
+    "Name": "Pattern matching"
   },
   {
     "Definition": "Inferential statistics refers to the branch of statistics that is used to draw conclusions and make decisions about a population based on samples, often through hypothesis testing. It helps determine whether the observed differences or relationships in the data are significant and not due to chance.\nhttps://www.sciencedirect.com/topics/social-sciences/inferential-statistics",
@@ -537,7 +538,7 @@
           "Theoretical distribution function",
           "Cumulative probability distribution function"
         ],
-        "Definition": "Not on UNterm\nThe cumulative distribution function (CDF) is the probability that a continuous random variable has a value less than or equal to a given value. The Probability Density Function (PDF) is the first derivative of the CDF. [1]\nThe CDF is useful for those who want to know the probability of climate change being less than some \nthreshold where an impact of interest starts to occur. [2]\n[1] https://confluence.ecmwf.int/display/FUG/Section+8.1.9.1+Cumulative+Distribution+Function,+Probability+Density+Function\n[2] https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/research/ukcp/ukcp18-guidance---how-to-use-the-cdf-and-pdf-plots.pdf",
+        "Definition": "The cumulative distribution function (CDF) is the probability that a continuous random variable has a value less than or equal to a given value. The Probability Density Function (PDF) is the first derivative of the CDF. [1]\nThe CDF is useful for those who want to know the probability of climate change being less than some \nthreshold where an impact of interest starts to occur. [2]\n[1] https://confluence.ecmwf.int/display/FUG/Section+8.1.9.1+Cumulative+Distribution+Function,+Probability+Density+Function\n[2] https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/research/ukcp/ukcp18-guidance---how-to-use-the-cdf-and-pdf-plots.pdf",
         "Usage": "When enough sample points available",
         "Category": "Statistical analyses",
         "ApplicableToOperations": [
@@ -569,7 +570,7 @@
         "ApplicableToOperations": [
           "Uncertainty quantification application"
         ],
-        "Name": "Empirical Distribution Function [notes for CNR: possibly a sub-method for CDF?]"
+        "Name": "Empirical Distribution Function"
       },
       {
         "Definition": "Probability distribution of the largest or smallest observations in a sample.\nhttps://unterm.un.org/unterm2/en/view/1f90fcbf-c795-4d8a-9f78-21673465c159",
